@@ -5,6 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Comment.destroy_all
+Announcement.destroy_all
+Student.destroy_all 
+Teacher.destroy_all
 
 announcement = Announcement.create(content: "First Announcement")
 
