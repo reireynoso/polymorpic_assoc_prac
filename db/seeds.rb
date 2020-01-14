@@ -8,9 +8,9 @@
 
 announcement = Announcement.create(content: "First Announcement")
 
-teacher = Teacher.create(username: "Teacher")
+teacher = Teacher.create(name: "Teacher")
 
-student = Student.create(username: "Student")
+student = Student.create(name: "Student")
 
 byebug
 
